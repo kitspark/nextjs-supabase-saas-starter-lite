@@ -1,0 +1,13 @@
+{
+  "name": "@kitspark/hello-world",
+  "version": "1.2.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test --import tsx tests/**/*.test.ts"
+  },
+  "author": "Kitspark",
+  "packageManager": "pnpm@10.17.0"
+}
