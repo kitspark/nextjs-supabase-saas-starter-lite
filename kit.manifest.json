@@ -1,0 +1,26 @@
+{
+  "kit": {
+    "version": "3.0.1",
+    "variant": "supabase-nextjs-starter",
+    "include": {
+      "globals": true,
+      "ui": {
+        "shadcn": true,
+        "local": {
+          "shared": true,
+          "variant": true
+        }
+      },
+      "features": {
+        "accounts": {
+          "hooks": true,
+          "functions": true,
+          "components": {
+            "shared": true,
+            "variant": true
+          }
+        }
+      }
+    }
+  }
+}
